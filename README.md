@@ -1,78 +1,110 @@
-# 🚀 LanXfer - Fast, Secure File Transfer Made Easy
+## ⚡ LanXfer – Lightning Fast LAN File Transfer ⚡
 
-[![Download LanXfer](https://img.shields.io/badge/Download%20LanXfer-v1.0-blue.svg)](https://github.com/Angel42199/LanXfer/releases)
+LanXfer is a **super simple, blazing fast, and secure LAN-based file transfer system**.  
+Send files instantly between devices connected to the same network – no cloud, no bullshit, just raw speed. 🚀
 
-## 📥 Overview
+---
 
-LanXfer is a fast, secure peer-to-peer file transfer tool for local networks. It allows you to share files directly between devices with encryption for privacy. No server is needed, making it simple and efficient. LanXfer is designed for speed and offers automatic device discovery to streamline the file transfer process. You have complete control over your transfers.
+## 🔑 Setup Secret Key
 
-## 🛠️ Features
+LanXfer uses Flask’s `SECRET_KEY` for session security.  
+Generate a 64-character hex key using Python:
 
-- **Easy-to-Use Interface:** Simple navigation for everyone.
-- **High-Speed Transfers:** Quickly send large files between devices.
-- **Encryption:** Ensures your file transfers remain private.
-- **Automatic Device Discovery:** No manual setup required; find other devices easily.
-- **Cross-Platform Compatibility:** Works on Windows, macOS, and Linux.
+```bash
+python3 -c "import secrets; print(secrets.token_hex(32))"
 
-## ℹ️ System Requirements
+Copy the generated key and set it in your app:
 
-To run LanXfer, ensure your device meets the following requirements:
+app.config["SECRET_KEY"] = "your_generated_key_here"
+```
 
-- **Operating System:** Windows 10 or later, macOS Catalina or later, any recent Linux distribution.
-- **Memory:** At least 2 GB of RAM.
-- **Storage:** Minimum of 100 MB available disk space.
-- **Network:** Active local network connection.
+---
 
-## 🚀 Getting Started
+## ⚙️Installation
 
-1. **Visit the Download Page**
+# 📦Requirements
 
-   Go to the LanXfer releases page to download the software. Click the button below to visit the page:
+> Python 3.8+
 
-   [Download LanXfer](https://github.com/Angel42199/LanXfer/releases)
+> Flask,psutil
 
-2. **Download the Latest Version**
+> A working LAN (obviously 😎)
 
-   Look for the latest version on the releases page. You will see several files available for download. Select the appropriate file for your operating system:
 
-   - **Windows:** `LanXfer-Installer.exe`
-   - **macOS:** `LanXfer.dmg`
-   - **Linux:** `LanXfer.AppImage`
+# Install dependencies:
 
-3. **Install LanXfer**
+> pip install -r requirements.txt
 
-   After the download completes, locate the file:
 
-   - **For Windows:** Double-click the `.exe` file and follow the installation prompts.
-   - **For macOS:** Open the `.dmg` file, then drag the LanXfer icon to the Applications folder.
-   - **For Linux:** Make the `.AppImage` file executable. Open Terminal and use the command:
-     ```bash
-     chmod +x LanXfer.AppImage
-     ```
-     Then run the application with:
-     ```bash
-     ./LanXfer.AppImage
-     ```
+---
 
-4. **Launch the Application**
+## 🖥️ Running LanXfer
 
-   After installation, you can find LanXfer in your applications. Open the program and follow the on-screen instructions to start transferring files.
+# 🐧 Linux
 
-## 📂 Download & Install
+```
+git clone https://github.com/yourusername/lanxfer.git
+cd lanxfer
+python3 app.py
+```
+Access from your browser at:
+> 👉 http://127.0.0.1:5000
+> 👉 http://<pc-ip>:5000
 
-To get started with LanXfer, follow these steps:
 
-1. Visit the LanXfer releases page at [this link](https://github.com/Angel42199/LanXfer/releases).
-2. Download the right version for your operating system.
-3. Install the application using the provided instructions.
-4. Run LanXfer and enjoy fast, secure file transfers!
+---
 
-## 📜 License
+# 🪟 Windows
+```
+git clone https://github.com/yourusername/lanxfer.git
+cd lanxfer
+python app.py
+```
+Access from your browser at:
+👉 http://127.0.0.1:5000
+👉 http://<pc-ip>:5000
 
-LanXfer is open-source software, allowing you to freely use, modify, and distribute it. For more details, please check the LICENSE file included in this repository.
+(Use ipconfig in CMD to find your local IP)
 
-## 💬 Support & Feedback
 
-If you have questions or feedback, feel free to open an issue on the GitHub repository. We appreciate your input and are here to help!
+---
 
-[![Download LanXfer](https://img.shields.io/badge/Download%20LanXfer-v1.0-blue.svg)](https://github.com/Angel42199/LanXfer/releases)
+## 📂 Sending Files
+
+1. Open LanXfer in your browser.
+
+
+2. Choose file(s) to upload.
+
+
+3. Click on download button to download a file.
+
+
+4. Done. 💨
+
+
+
+
+---
+
+## 🔥 Features
+
+⚡ Zero-cloud, direct LAN transfers
+
+🔑 Secure Flask backend with SECRET_KEY
+
+🌐 Works on Windows, Linux, Mac
+
+🛡️ No spyware, no ads, no nonsense
+
+🖤 Clean & minimal web UI
+
+
+
+---
+
+## 🛠️ Development
+
+Want to hack it? Clone the repo and edit freely.
+Pull requests welcome ✨
+
