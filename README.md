@@ -44,7 +44,7 @@ app.config["SECRET_KEY"] = "your_generated_key_here"
 
 ```
 git clone https://github.com/Angel42199/LanXfer.git
-cd lanxfer
+cd LanXfer
 python3 app.py
 ```
 Access from your browser at:
@@ -58,7 +58,7 @@ Access from your browser at:
 ## 🪟 Windows
 ```
 git clone https://github.com/Angel42199/LanXfer.git
-cd lanxfer
+cd LanXfer
 python app.py
 ```
 Access from your browser at:
