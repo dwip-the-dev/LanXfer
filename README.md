@@ -1,11 +1,11 @@
-## ⚡ LanXfer – Lightning Fast LAN File Transfer ⚡
+# ⚡ LanXfer – Lightning Fast LAN File Transfer ⚡
 
 LanXfer is a **super simple, blazing fast, and secure LAN-based file transfer system**.  
 Send files instantly between devices connected to the same network – no cloud, no bullshit, just raw speed. 🚀
 
 ---
 
-## 🔑 Setup Secret Key
+# 🔑 Setup Secret Key
 
 LanXfer uses Flask’s `SECRET_KEY` for session security.  
 Generate a 64-character hex key using Python:
@@ -20,9 +20,9 @@ app.config["SECRET_KEY"] = "your_generated_key_here"
 
 ---
 
-## ⚙️Installation
+# ⚙️Installation
 
-# 📦Requirements
+## 📦Requirements
 
 > Python 3.8+
 
@@ -31,16 +31,16 @@ app.config["SECRET_KEY"] = "your_generated_key_here"
 > A working LAN (obviously 😎)
 
 
-# Install dependencies:
+## Install dependencies:
 
 > pip install -r requirements.txt
 
 
 ---
 
-## 🖥️ Running LanXfer
+# 🖥️ Running LanXfer
 
-# 🐧 Linux
+## 🐧 Linux
 
 ```
 git clone https://github.com/Angel42199/lanxfer.git
@@ -54,7 +54,7 @@ Access from your browser at:
 
 ---
 
-# 🪟 Windows
+## 🪟 Windows
 ```
 git clone https://github.com/Angel42199/lanxfer.git
 cd lanxfer
@@ -69,7 +69,7 @@ Access from your browser at:
 
 ---
 
-## 📂 Sending Files
+# 📂 Sending Files
 
 1. Open LanXfer in your browser.
 
@@ -87,7 +87,7 @@ Access from your browser at:
 
 ---
 
-## 🔥 Features
+# 🔥 Features
 
 ⚡ Zero-cloud, direct LAN transfers
 
@@ -103,7 +103,7 @@ Access from your browser at:
 
 ---
 
-## 🛠️ Development
+# 🛠️ Development
 
 Want to hack it? Clone the repo and edit freely.
 Pull requests welcome ✨
