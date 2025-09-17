@@ -10,11 +10,11 @@ Send files instantly between devices connected to the same network – no cloud,
 LanXfer uses Flask’s `SECRET_KEY` for session security.  
 Generate a 64-character hex key using Python:
 
-```bash
+```
 python3 -c "import secrets; print(secrets.token_hex(32))"
-
+```
 Copy the generated key and set it in your app:
-
+```
 app.config["SECRET_KEY"] = "your_generated_key_here"
 ```
 
@@ -43,7 +43,7 @@ app.config["SECRET_KEY"] = "your_generated_key_here"
 # 🐧 Linux
 
 ```
-git clone https://github.com/yourusername/lanxfer.git
+git clone https://github.com/Angel42199/lanxfer.git
 cd lanxfer
 python3 app.py
 ```
@@ -56,7 +56,7 @@ Access from your browser at:
 
 # 🪟 Windows
 ```
-git clone https://github.com/yourusername/lanxfer.git
+git clone https://github.com/Angel42199/lanxfer.git
 cd lanxfer
 python app.py
 ```
