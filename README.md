@@ -49,6 +49,7 @@ python3 app.py
 ```
 Access from your browser at:
 > 👉 http://127.0.0.1:5000
+
 > 👉 http://pc-ip:5000
 
 
@@ -61,8 +62,9 @@ cd lanxfer
 python app.py
 ```
 Access from your browser at:
-👉 http://127.0.0.1:5000
-👉 http://pc-ip:5000
+>👉 http://127.0.0.1:5000
+
+>👉 http://pc-ip:5000
 
 (Use ipconfig in CMD to find your local IP)
 
